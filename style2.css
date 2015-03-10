@@ -63,7 +63,7 @@ img.bg {
 
 	top:5%;
   left:25%;
-  /*margin: -70px 0 0 -200px;*/
+  margin: -10px 10px 0 10px;
 }
 
 #about {
@@ -73,13 +73,16 @@ img.bg {
   font-size: 20px;
 
 	position: relative;
-	background: rgba(255,255,255,0.8);
+	background: rgba(224, 224, 224, 0.9);
 	width: 900px;
-	height: 500px;
+	height: 380px;
 
 	top:5%;
   left:25%;
-  /*margin: -70px 0 0 -200px;*/
+}
+
+#about_para {
+  margin: 0 10px 0 10px;
 }
 
 #title {
