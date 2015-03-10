@@ -39,17 +39,15 @@ img.bg {
 #intro{
 	cursor:default;
 
-	border-radius: 10px;
+	border-radius: 5px;
 
 	position: relative;
 	background: rgba(255,255,255,0.8);
 	width: 380px;
 	height: 140px;
 
-	top:80%;
-  left:25%;
-  /*margin:-70px 0 0 -200px;*/
-
+	top:20%;
+  left:715px;
 }
 
 #about_head {
