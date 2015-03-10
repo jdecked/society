@@ -41,13 +41,13 @@ img.bg {
 
 	border-radius: 5px;
 
-	position: relative;
+	position: absolute;
 	background: rgba(255,255,255,0.8);
 	width: 380px;
 	height: 140px;
 
-	top:20%;
-  left:715px;
+	top:83.5%;
+  left:39.5%;
 }
 
 #about_head {
@@ -90,4 +90,24 @@ img.bg {
 #links {
 	text-align: center;
 	font-size: 20px;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #0000EE;
+}
+
+a:link {
+  text-decoration: none;
+  color: #000000;
+}
+
+a:visited {
+  text-decoration: none;
+  color: #000000;
+}
+
+a:active {
+  text-decoration: none;
+  color: #EE0000;
 }

@@ -85,3 +85,23 @@ video {
 	text-align: center;
 	font-size: 20px;
 }
+
+a:hover {
+  text-decoration: none;
+  color: #0000EE;
+}
+
+a:link {
+  text-decoration: none;
+  color: #000000;
+}
+
+a:visited {
+  text-decoration: none;
+  color: #000000;
+}
+
+a:active {
+  text-decoration: none;
+  color: #EE0000;
+}
