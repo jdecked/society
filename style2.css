@@ -6,6 +6,7 @@ body{
   /* Set rules to fill background */
   background-size: 100% 100%;
   background-repeat: no-repeat;
+  background-attachment: fixed;
 
 	-webkit-touch-callout: none;
     -webkit-user-select: none;
@@ -46,8 +47,8 @@ img.bg {
 	width: 380px;
 	height: 140px;
 
-	top:83.5%;
-  left:39.5%;
+	bottom:-97.5px;
+  left:736px;
 }
 
 #about_head {
@@ -57,13 +58,17 @@ img.bg {
 	border-radius: 10px;
 
 	position: static;
-	background: rgba(255,255,255,0.8);
+	background: rgba(0,0,0,0.8);
 	width: 900px;
 	height: 45px;
 
 	top:5%;
   left:25%;
   margin: -10px 10px 0 10px;
+}
+
+#about_head p {
+  color: #ffffff;
 }
 
 #about {
@@ -75,7 +80,22 @@ img.bg {
 	position: relative;
 	background: rgba(224, 224, 224, 0.9);
 	width: 900px;
-	height: 380px;
+	height: 365px;
+
+	top:5%;
+  left:25%;
+}
+
+#plans {
+  cursor:default;
+
+	border-radius: 10px;
+  font-size: 20px;
+
+	position: relative;
+	background: rgba(224, 224, 224, 0.9);
+	width: 900px;
+	height: 620px;
 
 	top:5%;
   left:25%;
